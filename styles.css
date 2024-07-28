@@ -1,0 +1,96 @@
+/* 200521364 Ji Hee Rhou, 200530592 Jing-xian Wu */
+
+html {
+  background: linear-gradient(45deg, #e0efbb, rgb(220, 228, 249));
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.08rem;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(190deg, #6d41cd, #bfaee4);
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #edece9;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.08rem;
+  font-style: italic;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section h3 {
+  margin-bottom: 0.5rem;
+}
+
+section h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section label {
+  display: inline-block;
+  width: 150px;
+  line-height: 30px;
+}
+
+section input[type="button"] {
+  width: 80px;
+  height: 40px;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+#order div {
+  padding: 10px;
+}
+
+#order div:nth-child(2) {
+  text-align: center;
+}
+
+#serve {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+#serve div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+#description {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: dashed 1px #000;
+  display: none;
+}
+
+div.menu {
+  display: flex;
+}

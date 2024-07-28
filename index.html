@@ -1,0 +1,159 @@
+<!-- 200521364 Ji Hee Rhou, 200530592 Jing-xian Wu -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Smoothie Machine</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Smoothie Order Form</h1>
+    </header>
+    <p>Small: $4.99 | Medium: $6.49 | Large: $7.99</p>
+    <section id="order">
+      <div class="menu">
+        <div>
+          <h3>Your Name: <input type="text" id="name" required /></h3>
+          <h3>Smoothie:</h3>
+
+          <input
+            class="flavour"
+            type="radio"
+            id="strawberry"
+            name="smoothie"
+            value="Strawberry"
+            required
+          />
+          <label for="strawberry">Strawberry</label>
+
+          <input
+            class="flavour"
+            type="radio"
+            id="banana"
+            name="smoothie"
+            value="Banana"
+          />
+          <label for="banana">Banana</label>
+
+          <input
+            class="flavour"
+            type="radio"
+            id="orange"
+            name="smoothie"
+            value="Orange"
+          />
+          <label for="orange">Orange</label><br />
+
+          <input
+            class="flavour"
+            type="radio"
+            id="kiwi"
+            name="smoothie"
+            value="Kiwi"
+          />
+          <label for="kiwi">Kiwi</label>
+
+          <input
+            class="flavour"
+            type="radio"
+            id="watermelon"
+            name="smoothie"
+            value="Watermelon"
+          />
+          <label for="watermelon">Watermelon</label>
+
+          <input
+            class="flavour"
+            type="radio"
+            id="grape"
+            name="smoothie"
+            value="Grape"
+          />
+          <label for="grape">Grape</label><br /><br />
+
+          <h3>Additional Ingredients ($1.49 each):</h3>
+          <input
+            type="checkbox"
+            id="yogurt"
+            name="ingredients"
+            value="Yogurt"
+          />
+          <label for="yogurt">Yogurt</label>
+          <input
+            type="checkbox"
+            id="oatmeal"
+            name="ingredients"
+            value="Oatmeal"
+          />
+          <label for="oatmeal">Oatmeal</label>
+          <input type="checkbox" id="honey" name="ingredients" value="Honey" />
+          <label for="honey">Honey</label><br />
+          <input
+            type="checkbox"
+            id="walnut"
+            name="ingredients"
+            value="Walnut"
+          />
+          <label for="walnut">Walnut</label>
+          <input
+            type="checkbox"
+            id="almond"
+            name="ingredients"
+            value="Almond"
+          />
+          <label for="almond">Almond</label>
+          <input
+            type="checkbox"
+            id="cinnamon"
+            name="ingredients"
+            value="Cinnamon"
+          />
+          <label for="cinnamon">Cinnamon</label><br />
+          <input
+            type="checkbox"
+            id="protein"
+            name="ingredients"
+            value="Protein"
+          />
+          <label for="protein">Protein</label>
+          <input type="checkbox" id="fiber" name="ingredients" value="Fiber" />
+          <label for="fiber">Fiber</label>
+          <input
+            type="checkbox"
+            id="multivitamin"
+            name="ingredients"
+            value="Multivitamin"
+          />
+          <label for="multivitamin">Multivitamin</label><br /><br />
+
+          <h3>
+            Size:
+            <select id="size">
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+            </select>
+          </h3>
+        </div>
+        <div class="photo"></div>
+      </div>
+      <div>
+        <input class="add" type="button" value="Add" />
+        <input class="order" type="button" value="Order" />
+        <input class="cancel" type="button" value="Cancel" />
+      </div>
+      <div id="description"></div>
+    </section>
+    <section id="serve">
+      <div id="serve_smoothie"></div>
+      <div id="serve_description"></div>
+      <div>
+        <input class="menu" type="button" value="MENU" />
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!--<a href="https://www.freepik.com/free-vector/flat-smoothies-blender-glass_13718941.htm#page=2&query=smoothie&position=1&from_view=search&track=sph">Image by macrovector</a> on Freepik-->
